@@ -1,6 +1,3 @@
-from select import select
-
-
 class Coche:
     def __init__(self, marca, color, combustible, cilindrada):
         self.marca = marca
@@ -13,3 +10,11 @@ class Coche:
 
 coche1 = Coche("Opel", "rojo", "gasolina", "1.6")
 coche1.mostrarCaracteristicas()
+
+marca = input()
+color = input()
+combustible = input()
+cilindrada = input()
+
+coche2 = Coche(marca, color, combustible, cilindrada)
+coche2.mostrarCaracteristicas()
