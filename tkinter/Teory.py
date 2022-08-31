@@ -80,4 +80,14 @@ def preguntar():
 pregunta = tkinter.Button(raiz, text="Pulsar para preguntar", command=preguntar)
 pregunta.pack()
 
+#Componente filedialog para abrir un fichero
+from tkinter import filedialog
+
+def abrir_fichero():
+    ruta = filedialog.askopenfilename(title="Abrir un fichero")
+    print(ruta)
+
+apertura_fichero = tkinter.Button(raiz, text="Pulsa para empezar", command=abrir_fichero)
+apertura_fichero.pack()
+
 raiz.mainloop()
