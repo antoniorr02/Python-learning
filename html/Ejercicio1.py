@@ -1,5 +1,4 @@
 import pandas as pd
-import lxml
 
 url='https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses'
 

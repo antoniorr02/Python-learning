@@ -1,5 +1,4 @@
 import pandas as pd
-import openpyxl
 
 fichero_excel = pd.ExcelFile('./poblacion.xlsx')
 dataframe = fichero_excel.parse('Hoja 1')

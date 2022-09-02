@@ -1,5 +1,4 @@
 import pandas as pd
-import lxml
 
 url='https://es.wikipedia.org/wiki/Anexo:Finales_de_la_Copa_Mundial_de_F%C3%BAtbol'
 
