@@ -23,3 +23,8 @@ print("\n")
 
 dataframe4 = datadframe.add(datadframe2, fill_value=0) #No está rellenando con 0s?
 print(dataframe4)
+
+combinacion_aleatoria = np.random.permutation(3)
+print(combinacion_aleatoria)
+dataframe4 = dataframe4.take(combinacion_aleatoria)
+print(dataframe4)
