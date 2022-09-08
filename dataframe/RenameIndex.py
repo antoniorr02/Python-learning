@@ -11,7 +11,7 @@ new_index = dataframe.index.map(str.upper)
 dataframe.index = new_index
 print(dataframe)
 
-dataframe = dataframe   .rename(index=str.lower)
+dataframe = dataframe.rename(index=str.lower)
 print(dataframe)
 
 nuevos = {'n':'a', 'm':'b', 'o':'c', 'p':'d'}

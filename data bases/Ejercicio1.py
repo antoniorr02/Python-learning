@@ -1,4 +1,3 @@
-from pickle import LIST
 import sqlite3
 
 conexion = sqlite3.connect("productos.db")
